@@ -1,0 +1,6 @@
+f = open("demo.txt","r")
+list1 = []
+for line in f:
+    list1.append(line)
+print(list1)
+    
